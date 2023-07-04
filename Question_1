@@ -1,0 +1,142 @@
+// 1. Explain all the CSS positions(static, fixed, sticky, relative, absolute) with one code example each.
+
+1 Static:
+
+Static positioning is the default position value for elements.
+Elements with position: static; are positioned according to the normal flow of the document.
+
+Examples
+
+// HTML
+<div class="box">Static</div>
+
+// CSS
+.box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+2 Fixed:
+
+Fixed positioning positions an element relative to the viewport, so it remains fixed even when scrolling.
+
+Example:
+
+// HTML
+
+<div class="box">Fixed</div>
+
+// CSS
+
+.box {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+3 Sticky:
+
+Sticky positioning is a mix of relative and fixed positioning. It acts as relative until a specific scroll threshold is reached, then it becomes fixed.
+
+Example:
+
+//HTML
+<div class="container">
+  <div class="box">Sticky</div>
+</div>
+
+// CSS
+
+.container {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.box {
+  position: sticky;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+4 Relative:
+
+Relative positioning positions an element relative to its normal position.
+
+Example:
+
+// HTML
+<div class="box">Relative</div>
+
+// CSS
+.box {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+5 Absolute:
+
+Absolute positioning positions an element relative to its closest positioned ancestor or the initial containing block (viewport if no ancestor is positioned).
+
+Example:
+// HTML
+
+<div class="container">
+  <div class="box">Absolute</div>
+</div>
+
+// CSS
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
