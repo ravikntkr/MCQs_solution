@@ -1,0 +1,287 @@
+/* font-family: "Merriweather", serif;
+font-family: "Mulish", sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header area styling */
+
+header {
+  max-width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+
+/* Topbar styling */
+
+.top__bar {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #241c15;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_bar__message {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-size: 13px;
+}
+
+.top_bar__message a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 0.0625rem dashed;
+}
+
+/*  Heder */
+
+nav {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 50px;
+  background-color: #fff;
+}
+
+.main__menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.menu_items {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #241c15;
+  cursor: pointer;
+}
+
+.logo__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 220px;
+  height: 43.69px;
+  cursor: pointer;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.phone {
+  list-style: none;
+  text-align: right;
+}
+
+.phone__number {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #241c15;
+  cursor: pointer;
+  transition: all ease-in 2s;
+}
+
+.language__dropdown {
+  list-style: none;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.globe_icon {
+  width: 17px;
+  height: 17px;
+}
+
+.lang {
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+.down_icon {
+  font-size: 8px;
+  margin-top: 5px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.head_btn {
+  width: 91px;
+  height: 43.5px;
+  border-radius: 35px;
+  border: 1.5px solid #000000;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #241c15;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+.head_btn:hover {
+  border-bottom: 5px solid #000000;
+}
+
+.login {
+  background-color: #fff;
+}
+
+.sign_up {
+  background-color: #ffe01b;
+}
+
+/* Main area styling */
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  padding-left: 240px;
+  padding-top: 160px;
+}
+
+.right {
+  width: 50%;
+}
+
+.main_img {
+  width: 100%;
+  height: 100%;
+}
+
+.sm_txt {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #241c15;
+  margin-bottom: 10px;
+}
+
+.main_heading {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+
+.main_paragraph {
+  font-family: "Mulish", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1em;
+  margin-bottom: 25px;
+}
+
+.main_btn {
+  width: 135px;
+  height: 43px;
+  border-radius: 35px;
+  border: 1.5px solid #000000;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #241c15;
+  background-color: #ffe01b;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.main_btn:hover {
+  border-bottom: 5px solid #000000;
+}
+
+/* Cookies notice */
+
+.cokkies {
+  width: 100%;
+  height: 76px;
+  margin: 0 auto;
+  background-color: #241c15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.remove {
+  display: none;
+}
+
+.cookies_txt {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #ffffff;
+  width: 990px;
+  line-height: 1.5em;
+}
+
+.cookies_txt span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookies_right {
+  display: flex;
+  gap: 25px;
+}
+
+.cookies_btn {
+  width: 158px;
+  height: 35px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.cookies_close {
+  border: 0;
+  background-color: transparent;
+}
+
+.cookies_close img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

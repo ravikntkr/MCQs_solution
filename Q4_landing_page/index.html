@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marketing, Automation &amp; Email Platform | Mailchimp</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/siteicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/cc22289122.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&family=Mulish:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Top Bar -->
+      <div class="top__bar">
+        <p class="top_bar__message">
+          Save 75% for 12 months - limited time offer.
+          <a href="#"><span class="top_bar_btn">Get started today</span></a>
+        </p>
+      </div>
+      <!-- Header -->
+      <nav>
+        <!-- Nav Menu -->
+        <ul class="main__menu">
+          <li class="menu_items">Products</li>
+          <li class="menu_items">Resources</li>
+          <li class="menu_items">Inspiration</li>
+          <li class="menu_items">Pricing</li>
+        </ul>
+        <!-- Logo -->
+        <div class="logo__area">
+          <img src="./assets/download.svg" alt="Mailchimo" class="logo" />
+        </div>
+        <!-- Header important links/button -->
+        <div class="header__right">
+          <!-- Phone Number -->
+          <ul class="phone">
+            <li class="phone__number">Sales:</li>
+            <li class="phone__number">+1(000) 123-4567</li>
+          </ul>
+          <!-- Language dropdown -->
+          <ul class="language__dropdown">
+            <li class="globe_icon">
+              <img src="./assets/earth-globe.png" class="globe_icon" />
+            </li>
+            <li class="lang">
+              EN <i class="fa-solid fa-caret-down down_icon"></i>
+            </li>
+          </ul>
+          <div class="search">
+            <img src="./assets/search_icon.svg" class="search-icon" />
+          </div>
+          <!-- Buttons -->
+          <div class="buttons">
+            <button class="login head_btn">Log In</button>
+            <button class="sign_up head_btn">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+      <!-- Left -->
+      <div class="left">
+        <p class="sm_txt">Convert with Automations</p>
+        <h1 class="main_heading">Create must click landing <br />pages</h1>
+        <p class="main_paragraph">
+          With Mailchimp's landing page builder, it take just <br />
+          a few minutes to design beautiful kanding pages <br />
+          that make visitors wants to join your audience or <br />buy your
+          stuff.
+        </p>
+        <button class="main_btn">Start Building</button>
+      </div>
+      <!-- Right -->
+      <div class="right">
+        <img src="./assets/home_bg01.png" alt="" class="main_img" />
+      </div>
+      <!-- Cookies notice -->
+    </main>
+    <div class="cokkies">
+      <p class="cookies_txt">
+        Our website stores cookies on your device and discloses information in
+        accordance with our Cookie Statement. Choose “Customize Settings” to
+        control cookies. We may collect certain aggregate and anonymized data
+        from your browser independent of your cookie preferences.
+        <span class="cookies_link">Cookie Statement</span>
+      </p>
+      <div class="cookies_right">
+        <button class="cookies_btn">Customize settings</button>
+        <button class="cookies_close">
+          <img src="./assets/x_icon.svg" />
+        </button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script>
+      const btn = document.querySelector(".cookies_close");
+      const cookies = document.querySelector(".cokkies");
+
+      btn.addEventListener("click", () => {
+        cookies.classList.add("remove");
+      });
+    </script>
+  </body>
+</html>
